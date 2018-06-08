@@ -17,15 +17,21 @@ h1 {
     text-align: center;
 }
 
-h2{
+h2 {
 	color: #ffffff;
     text-align: center;
 	vertical-align: top;
 }
 
+h3 {
+	color: white;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 p {
     font-family: verdana;
-    font-size: 1.5em;
+    font-size: 1.2em;
 	text-align: center;
 	margin:0;
 }
@@ -96,7 +102,24 @@ ul {
   cursor: default;
 }
  
+#content {
+	padding:10px;
+}
 
+#contentLeft {
+	padding-left:125px;
+	padding-right:50px;
+}
+
+#contentRight {
+	padding-left:50px;
+	padding-right:125px;
+}
+
+#contentMiddle {
+	padding-left:75px;
+	padding-right:75px;
+}
 
 table {
 	border-color: #ffffff;
@@ -117,28 +140,25 @@ td {
 	text-align: center;
 }
 
-#grad {
-  background: black; /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  background: -webkit-linear-gradient(left,black,gray,gray,black);
-  /* For Opera 11.1 to 12.0 */
-  background: -o-linear-gradient(left,black,gray,gray,black);
-  /* For Fx 3.6 to 15 */
-  background: -moz-linear-gradient(left,black,gray,gray,black);
-  /* Standard syntax */
-  background: linear-gradient(to right, black,gray,gray,black); 
-}
-
-#grad2 {
-  background: black;
-}
-
 .col {
 	height: inherit;
 }
+
 .well{
 	background-color: #990000;
+	font-size: 1.8em;
 }
+
+.topbar {
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.redText {
+	color:#990000;
+}
+
+/************Slideshow styling************/
 
 * {box-sizing:border-box}
 
@@ -234,6 +254,8 @@ td {
   to {opacity: 1}
 }
 
+/*********************************************************/
+
 @media screen and (min-width: 600px) {
   .nav li {
     width: 150px;
@@ -249,11 +271,22 @@ td {
     margin-right: -4px;
   }
   
+  h1 {
+	  font-size: 2.1em;
+  }
+  
+  h2 {
+	  font-size: 1.8em;
+  }
+  p {
+        font-size: 1.1em;
+    }
+  
 }
 
 @media only screen and (max-width: 70em){
     h1{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     h2{
         font-size: 1em;
