@@ -303,6 +303,20 @@ td {
     .email{
         font-size:.8em;
     }
+	#contentLeft {
+		padding-left:5px;
+		padding-right:5px;
+	}
+
+	#contentRight {
+		padding-left:5px;
+		padding-right:5px;
+	}
+
+	#contentMiddle {
+		padding-left:5px;
+		padding-right:5px;
+	}
 
     .nav li {
     width: 4.5em;
