@@ -284,7 +284,7 @@ td {
   
 }
 
-@media only screen and (max-width: 70em){
+@media only screen and (max-width: 90em){
     h1{
         font-size: 1.2em;
     }
