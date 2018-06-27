@@ -158,6 +158,10 @@ td {
 	color:#990000;
 }
 
+.logo {
+
+}
+
 /************Slideshow styling************/
 
 * {box-sizing:border-box}
@@ -284,7 +288,7 @@ td {
   
 }
 
-@media only screen and (max-width: 90em){
+@media only screen and (max-width: 80em){
     h1{
         font-size: 1.3em;
     }
@@ -336,5 +340,9 @@ td {
   .nav li {
     display: inline-block;
     margin-right: -4px;
+  }
+
+  .logo {
+    display: none;
   }
 }
