@@ -11,6 +11,10 @@ body {
 	color: #ffffff;
 }
 
+.container {
+  width: 98vw;
+}
+
 h1 {
     margin: 0;
     color: white;
@@ -158,9 +162,9 @@ td {
 	color:#990000;
 }
 
-.logo {
+/* .logo {
 
-}
+} */
 
 /************Slideshow styling************/
 
@@ -260,7 +264,7 @@ td {
 
 /*********************************************************/
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
   .nav li {
     width: 150px;
     border-bottom: none;
@@ -288,14 +292,14 @@ td {
   
 }
 
-@media only screen and (max-width: 80em){
+@media only screen and (max-width: 70em){
     h1{
         font-size: 1.3em;
     }
     h2{
         font-size: 1.2em;
     }
-	h3{
+	  h3{
         font-size: 1.1em;
     }
     p{
@@ -314,18 +318,24 @@ td {
 		font-size: 1.3em;
 	}
 	#contentLeft {
-		padding-left:10px;
-		padding-right:10px;
+		padding-left:0px;
+    padding-right:0px;
+    /* padding-bottom: 10em; */
+    padding: 2.5em;
 	}
 
 	#contentRight {
-		padding-left:10px;
-		padding-right:10px;
+		padding-left:0px;
+    padding-right:0px;
+    /* padding-bottom: 10em; */
+    padding: 2.5em;
 	}
 
 	#contentMiddle {
-		padding-left:10px;
-		padding-right:10px;
+		padding-left:0px;
+    padding-right:0px;
+    /* padding-bottom: 10em; */
+    padding: 2.5em;
 	}
 
     .nav li {
