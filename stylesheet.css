@@ -292,7 +292,7 @@ td {
   
 }
 
-@media only screen and (max-width: 70em){
+@media only screen and (max-width: 750px){
     h1{
         font-size: 1.3em;
     }
@@ -317,26 +317,7 @@ td {
 	.well{
 		font-size: 1.3em;
 	}
-	#contentLeft {
-		padding-left:0px;
-    padding-right:0px;
-    /* padding-bottom: 10em; */
-    padding: 2.5em;
-	}
-
-	#contentRight {
-		padding-left:0px;
-    padding-right:0px;
-    /* padding-bottom: 10em; */
-    padding: 2.5em;
-	}
-
-	#contentMiddle {
-		padding-left:0px;
-    padding-right:0px;
-    /* padding-bottom: 10em; */
-    padding: 2.5em;
-	}
+	
 
     .nav li {
     width: 4.5em;
@@ -355,4 +336,24 @@ td {
   .logo {
     display: none;
   }
+}
+
+@media only screen and (max-width: 70em) {
+  #contentLeft {
+		padding-left:0px;
+    padding-right:0px;
+    padding: 2.5em;
+	}
+
+	#contentRight {
+		padding-left:0px;
+    padding-right:0px;
+    padding: 2.5em;
+	}
+
+	#contentMiddle {
+		padding-left:0px;
+    padding-right:0px;
+    padding: 2.5em;
+	}
 }
